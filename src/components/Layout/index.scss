@@ -1,0 +1,35 @@
+.page {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.top-tags {
+  color: #ffac17;
+  top: 35 px;
+}
+.tags {
+  color: #ffac17;
+  opacity: 0.6;
+  position: absolute;
+  bottom: 0;
+  left: 120px;
+  font-size: 18px;
+  font-family: 'Inter';
+}
+.bottom-tag-html {
+  margin-left: -20px;
+}
+.container {
+  width: 100%;
+  will-change: contents;
+  height: 100%;
+  min-height: 566px;
+  position: absolute;
+  opacity: 0;
+  //top: 5%;
+  z-index: 1;
+  transform-style: preserve-3d;
+  animation: fadeIn 1s forwards;
+  animation-delay: 1s;
+  overflow: auto;
+}

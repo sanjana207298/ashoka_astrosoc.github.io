@@ -1,0 +1,70 @@
+.team {
+  background: url(../../assets/images/our-team-bg.png);
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  flex-shrink: 0;
+}
+.image-container {
+  display: flex;
+  justify-content: center;
+  //align-items: center;
+  margin: 1px auto;
+}
+
+.image {
+  position: relative;
+  margin: 0 50px;
+}
+
+.image img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border: 1px solid #ccc;
+  height: 183px;
+  width: 183px;
+}
+
+.caption {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%);
+  align-items: flex-end;
+
+  color: white;
+  padding: 10px;
+  text-align: center;
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: 'Inter';
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 220px;
+}
+.space {
+  height: 20px;
+}
+.caption2 {
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: 'Inter';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 220px;
+}
+.heading1 {
+  color: #fff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: 'Koulen';
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
